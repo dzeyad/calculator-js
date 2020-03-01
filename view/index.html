@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <link rel="stylesheet" href="../assets/style.css">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator</title>
+ </head>
+
+ <body>    
+        <div id='calc-contain'>
+  
+        <form name="cal">
+          
+          <input type="text" name="ans" id="answer" value="" style="background-color: rgba(243, 233, 233, 0.226);width: 408px;">
+          <br>
+          <input type="button" name="button" id="click1" value ="1" onclick="calculator(this.value)">
+          <input type="button" name="button" id="click2"  value = "2" onclick="calculator(this.value)">
+          <input type="button" name="button" id="click3"  value = "3" onclick="calculator(this.value)">
+          <input type="button" name="button" id="clickplus" value = "+" onclick="operation(this.value)">
+          <br/>
+          
+          <input type="button" name="button" id="click4"  value="4"onclick="calculator(this.value)" >
+          <input type="button" name="button"  id="click5" value="5" onclick="calculator(this.value)">
+          <input type="button" name="button" id="click6"  value="6" onclick="calculator(this.value)">
+          <input type="button" name="button" id="clickminus" value="-" onclick="operation(this.value)">
+          </br>
+        
+          <input type="button" name="button" id="click7" value="7" onclick="calculator(this.value)">
+          <input type="button" name="button" id="click8" value="8" onclick="calculator(this.value)">
+          <input type="button" name="button" id="click9" value=" 9 " onclick="calculator(this.value)">
+          <input type="button" name="button" id="clicksub" value="*" onclick="operation(this.value)">
+          </br>
+      
+          <input type="button" name="button" id="clickc"  value="c" onclick="clear(this.value)">
+          <input type="button" name="button" id="click0" value="0" onclick="calculator(this.value)">
+          <input type="button" name="button"  id="clickequ" value="=" onclick="equal(this.value)">
+          <input type="button" name="button" id="clickdiv"  value="/" onclick="operation(this.value)">
+          </br>
+
+  
+        </form>
+      </div>
+ </body>
+ <script src="../assets/calscript.js"></script>
+
+ </html>

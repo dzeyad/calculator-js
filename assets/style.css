@@ -1,0 +1,17 @@
+#calc-contain
+{
+  margin-top:100px ;
+  display: flex;
+  justify-content: center;
+}
+input
+{
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: red;
+}
+body
+{
+  background-color: rgb(0, 0, 0);
+}
